@@ -1,0 +1,4 @@
+[submodule "dmz"]
+	path = dmz
+	url = https://github.com/OneSecure/card.io-dmz.git
+	branch = master
