@@ -89,7 +89,7 @@
 /* Begin PBXContainerItemProxy section */
 		A29803061C4697AC0058E762 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A298FC3F1C45104F0058E762 /* OpenCV-iOS.xcodeproj */;
+			containerPortal = A298FC3F1C45104F0058E762 /* opencv.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A298FF431C465E210058E762;
 			remoteInfo = png;
@@ -207,6 +207,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A53E75823DF4C0600E06751 /* CardIOIccVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOIccVersion.h; sourceTree = "<group>"; };
 		A283707D1C489AE300B77EA3 /* dmz_all.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dmz_all.cpp; sourceTree = "<group>"; };
 		A298F91A1C44F1160058E762 /* libCardIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCardIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A298F9271C44F20A0058E762 /* CardIOAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOAnalytics.h; sourceTree = "<group>"; };
@@ -676,7 +677,7 @@
 		A298FBE31C450CA70058E762 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
 		A298FBE41C450CA70058E762 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
 		A298FBE51C450CA70058E762 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
-		A298FC3F1C45104F0058E762 /* opencv.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "opencv.xcodeproj"; path = "../OpenCV-iOS/ios/opencv.xcodeproj"; sourceTree = "<group>"; };
+		A298FC3F1C45104F0058E762 /* opencv.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = opencv.xcodeproj; path = "./OpenCV-iOS/ios/opencv.xcodeproj"; sourceTree = "<group>"; };
 		A298FC801C45174E0058E762 /* card_io_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_io_logo.png; sourceTree = "<group>"; };
 		A298FC811C45174E0058E762 /* card_io_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_io_logo@2x.png"; sourceTree = "<group>"; };
 		A298FC821C45174E0058E762 /* card_io_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_io_logo@3x.png"; sourceTree = "<group>"; };
@@ -862,6 +863,7 @@
 		A298F9C81C4504FE0058E762 /* global */ = {
 			isa = PBXGroup;
 			children = (
+				3A53E75823DF4C0600E06751 /* CardIOIccVersion.h */,
 				A298FBDA1C4505540058E762 /* CardIOCardholderNameTextFieldDelegate.h */,
 				A298FBDB1C4505540058E762 /* CardIOCardholderNameTextFieldDelegate.m */,
 			);
@@ -1728,7 +1730,7 @@
 		A298F9121C44F1160058E762 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Ralph Shane";
 				TargetAttributes = {
 					A298F9191C44F1160058E762 = {
@@ -1741,6 +1743,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A298F9111C44F1160058E762;
@@ -1956,17 +1959,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1988,6 +2002,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1999,17 +2014,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2025,6 +2051,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -2035,6 +2062,7 @@
 		A298F9241C44F1160058E762 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				EXCLUDED_SOURCE_FILE_NAMES = (
 					canny.cpp,
 					conv.cpp,
@@ -2082,8 +2110,8 @@
 					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = (
-					"../OpenCV-iOS/install/include",
-					"../OpenCV-iOS/install/include/opencv2",
+					"./OpenCV-iOS/install/include",
+					"./OpenCV-iOS/install/include/opencv2",
 					./dmz,
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -2095,6 +2123,7 @@
 		A298F9251C44F1160058E762 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				EXCLUDED_SOURCE_FILE_NAMES = (
 					canny.cpp,
 					conv.cpp,
@@ -2140,8 +2169,8 @@
 					"SIMULATE_CAMERA=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"../OpenCV-iOS/install/include",
-					"../OpenCV-iOS/install/include/opencv2",
+					"./OpenCV-iOS/install/include",
+					"./OpenCV-iOS/install/include/opencv2",
 					./dmz,
 				);
 				OTHER_LDFLAGS = "-ObjC";
