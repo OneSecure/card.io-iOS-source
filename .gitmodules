@@ -3,3 +3,7 @@
 	url = https://github.com/OneSecure/card.io-dmz.git
 	branch = master
 
+[submodule "opencv-2.4.11"]
+	path = opencv-2.4.11
+	url = https://github.com/OneSecure/opencv-2.4.11.git
+	branch = master
