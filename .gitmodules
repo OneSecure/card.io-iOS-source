@@ -2,7 +2,4 @@
 	path = dmz
 	url = https://github.com/OneSecure/card.io-dmz.git
 	branch = master
-[submodule "OpenCV-iOS"]
-	path = OpenCV-iOS
-	url = https://github.com/OneSecure/OpenCV-iOS.git
-	branch = master
+
