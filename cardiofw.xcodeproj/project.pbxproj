@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A53E78823DF58B400E06751 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A53E77123DF522700E06751 /* libopencv_core.a */; };
-		3A53E78923DF58B400E06751 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A53E77323DF522700E06751 /* libopencv_imgproc.a */; };
-		3A53E78A23DF58E900E06751 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A53E76F23DF522700E06751 /* libzlib.a */; };
+		3AC8A09623E0FC70000DEB4E /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC8A07923E0FC4D000DEB4E /* libopencv_core.a */; };
+		3AC8A09723E0FC70000DEB4E /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC8A08123E0FC4D000DEB4E /* libopencv_imgproc.a */; };
+		3AC8A09823E0FC70000DEB4E /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC8A09523E0FC4D000DEB4E /* libzlib.a */; };
 		4358E6F91BFBBCBB007E07C3 /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
 		4358E6FA1BFBBCCC007E07C3 /* CardIOCardholderNameTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4358E6F61BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.h */; };
 		92122C301B8C3865004D705E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92122C2F1B8C3865004D705E /* OpenGLES.framework */; };
@@ -107,110 +107,159 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A53E76A23DF522700E06751 /* PBXContainerItemProxy */ = {
+		3AC8A07023E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A298FF431C465E210058E762;
-			remoteInfo = libpng;
-		};
-		3A53E76C23DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A298FF751C46603E0058E762;
+			remoteGlobalIDString = 159E696F3B4540208C06D950;
 			remoteInfo = libjpeg;
 		};
-		3A53E76E23DF522700E06751 /* PBXContainerItemProxy */ = {
+		3AC8A07223E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A298FCD41C46243F0058E762;
-			remoteInfo = zlib;
+			remoteGlobalIDString = 95E900F0A15949ADA9A86E6D;
+			remoteInfo = libpng;
 		};
-		3A53E77023DF522700E06751 /* PBXContainerItemProxy */ = {
+		3AC8A07423E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A298FD331C46280C0058E762;
-			remoteInfo = opencv_core;
-		};
-		3A53E77223DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A298FE6B1C462BD70058E762;
-			remoteInfo = opencv_imgproc;
-		};
-		3A53E77423DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A298FFEC1C4662A60058E762;
-			remoteInfo = opencv_video;
-		};
-		3A53E77623DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A29800231C4663FD0058E762;
-			remoteInfo = opencv_flann;
-		};
-		3A53E77823DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A29800601C4665B80058E762;
-			remoteInfo = opencv_features2d;
-		};
-		3A53E77A23DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A29800B81C4666FA0058E762;
+			remoteGlobalIDString = C1B7A0FB39704CED8B8FBD2E;
 			remoteInfo = opencv_calib3d;
 		};
-		3A53E77C23DF522700E06751 /* PBXContainerItemProxy */ = {
+		3AC8A07623E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A29801121C46693F0058E762;
-			remoteInfo = opencv_ts;
+			remoteGlobalIDString = 05C3C7BE66254D0B83E5384D;
+			remoteInfo = opencv_contrib;
 		};
-		3A53E77E23DF522700E06751 /* PBXContainerItemProxy */ = {
+		3AC8A07823E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A29801461C466AC40058E762;
-			remoteInfo = opencv_ml;
-		};
-		3A53E78023DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A29801791C466BF10058E762;
-			remoteInfo = opencv_objdetect;
-		};
-		3A53E78223DF522700E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A29801A51C466D7C0058E762;
-			remoteInfo = opencv_highgui;
-		};
-		3A53E78423DF525000E06751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A298FD321C46280C0058E762;
+			remoteGlobalIDString = 1707FEC164884A5181380193;
 			remoteInfo = opencv_core;
 		};
-		3A53E78623DF528A00E06751 /* PBXContainerItemProxy */ = {
+		3AC8A07A23E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A298FE6A1C462BD70058E762;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C9C5125635144FCA0ADC1D5;
+			remoteInfo = opencv_features2d;
+		};
+		3AC8A07C23E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46B65D9AB37C41C3963339F6;
+			remoteInfo = opencv_flann;
+		};
+		3AC8A07E23E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D650C18F21A5455B9FF179B4;
+			remoteInfo = opencv_highgui;
+		};
+		3AC8A08023E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 278D8B6EA4A740668D4C26ED;
 			remoteInfo = opencv_imgproc;
+		};
+		3AC8A08223E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8C00493FEFB4CB19F050F0B;
+			remoteInfo = opencv_legacy;
+		};
+		3AC8A08423E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E16EF04F607542309FF876FA;
+			remoteInfo = opencv_ml;
+		};
+		3AC8A08623E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 024CC173B2FC4466AAFD415D;
+			remoteInfo = opencv_nonfree;
+		};
+		3AC8A08823E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55560A38D6944EA19396826A;
+			remoteInfo = opencv_objdetect;
+		};
+		3AC8A08A23E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 062BBBCB983048FCBF963DC1;
+			remoteInfo = opencv_photo;
+		};
+		3AC8A08C23E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E664C0EBD3C043A8BA194302;
+			remoteInfo = opencv_stitching;
+		};
+		3AC8A08E23E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA1808D03E514A038B0985EF;
+			remoteInfo = opencv_video;
+		};
+		3AC8A09023E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D719520004449BCB4DA7D34;
+			remoteInfo = opencv_videostab;
+		};
+		3AC8A09223E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7047B93C50374754BDF7555B;
+			remoteInfo = opencv_world;
+		};
+		3AC8A09423E0FC4D000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76709184CAA647BCBE19E805;
+			remoteInfo = zlib;
+		};
+		3AC8A09923E0FC85000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5421F1C446E34FE09AFFA019;
+			remoteInfo = opencv_core;
+		};
+		3AC8A09B23E0FC85000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C889BAC1B8324DA48579FD14;
+			remoteInfo = opencv_imgproc;
+		};
+		3AC8A09D23E0FC85000DEB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B6B7E6C8EF44DFB2D8918B;
+			remoteInfo = zlib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -567,7 +616,7 @@
 		2DE7CA2617BD94F300D54383 /* card_io_logo_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card_io_logo_black@2x.png"; path = "Resources/card_io_logo_black@2x.png"; sourceTree = "<group>"; };
 		2DF9307616557ED7000936BA /* CardIOBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOBundle.h; path = Classes/CardIOBundle.h; sourceTree = "<group>"; };
 		2DF9307716557ED7000936BA /* CardIOBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardIOBundle.m; path = Classes/CardIOBundle.m; sourceTree = "<group>"; };
-		3A53E75923DF522700E06751 /* opencv.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = opencv.xcodeproj; path = "OpenCV-iOS/ios/opencv.xcodeproj"; sourceTree = "<group>"; };
+		3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OpenCV.xcodeproj; path = "opencv-2.4.11/ios/OpenCV.xcodeproj"; sourceTree = "<group>"; };
 		3E0133D8198AD2F3009E579A /* icc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "icc-Info.plist"; path = "SupportFiles/icc-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3E0133DA198AD30A009E579A /* CardIO_exported_symbols.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CardIO_exported_symbols.txt; path = SupportFiles/CardIO_exported_symbols.txt; sourceTree = "<group>"; };
 		3E0133E0198AD433009E579A /* CardIO-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CardIO-Prefix.pch"; path = "SupportFiles/CardIO-Prefix.pch"; sourceTree = "<group>"; };
@@ -735,9 +784,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A53E78A23DF58E900E06751 /* libzlib.a in Frameworks */,
-				3A53E78823DF58B400E06751 /* libopencv_core.a in Frameworks */,
-				3A53E78923DF58B400E06751 /* libopencv_imgproc.a in Frameworks */,
+				3AC8A09623E0FC70000DEB4E /* libopencv_core.a in Frameworks */,
+				3AC8A09723E0FC70000DEB4E /* libopencv_imgproc.a in Frameworks */,
+				3AC8A09823E0FC70000DEB4E /* libzlib.a in Frameworks */,
 				A50A54C61BE3094500B669FB /* Accelerate.framework in Frameworks */,
 				92122C431B8C39D0004D705E /* CoreVideo.framework in Frameworks */,
 				92122C411B8C3986004D705E /* CoreGraphics.framework in Frameworks */,
@@ -1624,7 +1673,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				3A53E75923DF522700E06751 /* opencv.xcodeproj */,
+				3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */,
 				030735D6134148FE00663C26 /* Public API */,
 				0305C57D1345258200A315B7 /* Core */,
 				080E96DDFE201D6D7F000001 /* Scan */,
@@ -1661,22 +1710,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A53E75A23DF522700E06751 /* Products */ = {
+		3AC8A05423E0FC4C000DEB4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A53E76B23DF522700E06751 /* liblibpng.a */,
-				3A53E76D23DF522700E06751 /* liblibjpeg.a */,
-				3A53E76F23DF522700E06751 /* libzlib.a */,
-				3A53E77123DF522700E06751 /* libopencv_core.a */,
-				3A53E77323DF522700E06751 /* libopencv_imgproc.a */,
-				3A53E77523DF522700E06751 /* libopencv_video.a */,
-				3A53E77723DF522700E06751 /* libopencv_flann.a */,
-				3A53E77923DF522700E06751 /* libopencv_features2d.a */,
-				3A53E77B23DF522700E06751 /* libopencv_calib3d.a */,
-				3A53E77D23DF522700E06751 /* libopencv_ts.a */,
-				3A53E77F23DF522700E06751 /* libopencv_ml.a */,
-				3A53E78123DF522700E06751 /* libopencv_objdetect.a */,
-				3A53E78323DF522700E06751 /* libopencv_highgui.a */,
+				3AC8A07123E0FC4D000DEB4E /* liblibjpeg.a */,
+				3AC8A07323E0FC4D000DEB4E /* liblibpng.a */,
+				3AC8A07523E0FC4D000DEB4E /* libopencv_calib3d.a */,
+				3AC8A07723E0FC4D000DEB4E /* libopencv_contrib.a */,
+				3AC8A07923E0FC4D000DEB4E /* libopencv_core.a */,
+				3AC8A07B23E0FC4D000DEB4E /* libopencv_features2d.a */,
+				3AC8A07D23E0FC4D000DEB4E /* libopencv_flann.a */,
+				3AC8A07F23E0FC4D000DEB4E /* libopencv_highgui.a */,
+				3AC8A08123E0FC4D000DEB4E /* libopencv_imgproc.a */,
+				3AC8A08323E0FC4D000DEB4E /* libopencv_legacy.a */,
+				3AC8A08523E0FC4D000DEB4E /* libopencv_ml.a */,
+				3AC8A08723E0FC4D000DEB4E /* libopencv_nonfree.a */,
+				3AC8A08923E0FC4D000DEB4E /* libopencv_objdetect.a */,
+				3AC8A08B23E0FC4D000DEB4E /* libopencv_photo.a */,
+				3AC8A08D23E0FC4D000DEB4E /* libopencv_stitching.a */,
+				3AC8A08F23E0FC4D000DEB4E /* libopencv_video.a */,
+				3AC8A09123E0FC4D000DEB4E /* libopencv_videostab.a */,
+				3AC8A09323E0FC4D000DEB4E /* libopencv_world.a */,
+				3AC8A09523E0FC4D000DEB4E /* libzlib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1873,8 +1928,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				3A53E78723DF528A00E06751 /* PBXTargetDependency */,
-				3A53E78523DF525000E06751 /* PBXTargetDependency */,
+				3AC8A09A23E0FC85000DEB4E /* PBXTargetDependency */,
+				3AC8A09C23E0FC85000DEB4E /* PBXTargetDependency */,
+				3AC8A09E23E0FC85000DEB4E /* PBXTargetDependency */,
 			);
 			name = CardIO;
 			productName = CardIO;
@@ -1912,8 +1968,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3A53E75A23DF522700E06751 /* Products */;
-					ProjectRef = 3A53E75923DF522700E06751 /* opencv.xcodeproj */;
+					ProductGroup = 3AC8A05423E0FC4C000DEB4E /* Products */;
+					ProjectRef = 3AC8A05323E0FC4C000DEB4E /* OpenCV.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1924,95 +1980,137 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		3A53E76B23DF522700E06751 /* liblibpng.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = liblibpng.a;
-			remoteRef = 3A53E76A23DF522700E06751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3A53E76D23DF522700E06751 /* liblibjpeg.a */ = {
+		3AC8A07123E0FC4D000DEB4E /* liblibjpeg.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = liblibjpeg.a;
-			remoteRef = 3A53E76C23DF522700E06751 /* PBXContainerItemProxy */;
+			remoteRef = 3AC8A07023E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3A53E76F23DF522700E06751 /* libzlib.a */ = {
+		3AC8A07323E0FC4D000DEB4E /* liblibpng.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libzlib.a;
-			remoteRef = 3A53E76E23DF522700E06751 /* PBXContainerItemProxy */;
+			path = liblibpng.a;
+			remoteRef = 3AC8A07223E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3A53E77123DF522700E06751 /* libopencv_core.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_core.a;
-			remoteRef = 3A53E77023DF522700E06751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3A53E77323DF522700E06751 /* libopencv_imgproc.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_imgproc.a;
-			remoteRef = 3A53E77223DF522700E06751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3A53E77523DF522700E06751 /* libopencv_video.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_video.a;
-			remoteRef = 3A53E77423DF522700E06751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3A53E77723DF522700E06751 /* libopencv_flann.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_flann.a;
-			remoteRef = 3A53E77623DF522700E06751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3A53E77923DF522700E06751 /* libopencv_features2d.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_features2d.a;
-			remoteRef = 3A53E77823DF522700E06751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3A53E77B23DF522700E06751 /* libopencv_calib3d.a */ = {
+		3AC8A07523E0FC4D000DEB4E /* libopencv_calib3d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libopencv_calib3d.a;
-			remoteRef = 3A53E77A23DF522700E06751 /* PBXContainerItemProxy */;
+			remoteRef = 3AC8A07423E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3A53E77D23DF522700E06751 /* libopencv_ts.a */ = {
+		3AC8A07723E0FC4D000DEB4E /* libopencv_contrib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libopencv_ts.a;
-			remoteRef = 3A53E77C23DF522700E06751 /* PBXContainerItemProxy */;
+			path = libopencv_contrib.a;
+			remoteRef = 3AC8A07623E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3A53E77F23DF522700E06751 /* libopencv_ml.a */ = {
+		3AC8A07923E0FC4D000DEB4E /* libopencv_core.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libopencv_ml.a;
-			remoteRef = 3A53E77E23DF522700E06751 /* PBXContainerItemProxy */;
+			path = libopencv_core.a;
+			remoteRef = 3AC8A07823E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3A53E78123DF522700E06751 /* libopencv_objdetect.a */ = {
+		3AC8A07B23E0FC4D000DEB4E /* libopencv_features2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libopencv_objdetect.a;
-			remoteRef = 3A53E78023DF522700E06751 /* PBXContainerItemProxy */;
+			path = libopencv_features2d.a;
+			remoteRef = 3AC8A07A23E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3A53E78323DF522700E06751 /* libopencv_highgui.a */ = {
+		3AC8A07D23E0FC4D000DEB4E /* libopencv_flann.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_flann.a;
+			remoteRef = 3AC8A07C23E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A07F23E0FC4D000DEB4E /* libopencv_highgui.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libopencv_highgui.a;
-			remoteRef = 3A53E78223DF522700E06751 /* PBXContainerItemProxy */;
+			remoteRef = 3AC8A07E23E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08123E0FC4D000DEB4E /* libopencv_imgproc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_imgproc.a;
+			remoteRef = 3AC8A08023E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08323E0FC4D000DEB4E /* libopencv_legacy.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_legacy.a;
+			remoteRef = 3AC8A08223E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08523E0FC4D000DEB4E /* libopencv_ml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_ml.a;
+			remoteRef = 3AC8A08423E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08723E0FC4D000DEB4E /* libopencv_nonfree.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_nonfree.a;
+			remoteRef = 3AC8A08623E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08923E0FC4D000DEB4E /* libopencv_objdetect.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_objdetect.a;
+			remoteRef = 3AC8A08823E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08B23E0FC4D000DEB4E /* libopencv_photo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_photo.a;
+			remoteRef = 3AC8A08A23E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08D23E0FC4D000DEB4E /* libopencv_stitching.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_stitching.a;
+			remoteRef = 3AC8A08C23E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A08F23E0FC4D000DEB4E /* libopencv_video.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_video.a;
+			remoteRef = 3AC8A08E23E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A09123E0FC4D000DEB4E /* libopencv_videostab.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_videostab.a;
+			remoteRef = 3AC8A09023E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A09323E0FC4D000DEB4E /* libopencv_world.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_world.a;
+			remoteRef = 3AC8A09223E0FC4D000DEB4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AC8A09523E0FC4D000DEB4E /* libzlib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzlib.a;
+			remoteRef = 3AC8A09423E0FC4D000DEB4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2100,15 +2198,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A53E78523DF525000E06751 /* PBXTargetDependency */ = {
+		3AC8A09A23E0FC85000DEB4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = opencv_core;
-			targetProxy = 3A53E78423DF525000E06751 /* PBXContainerItemProxy */;
+			targetProxy = 3AC8A09923E0FC85000DEB4E /* PBXContainerItemProxy */;
 		};
-		3A53E78723DF528A00E06751 /* PBXTargetDependency */ = {
+		3AC8A09C23E0FC85000DEB4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = opencv_imgproc;
-			targetProxy = 3A53E78623DF528A00E06751 /* PBXContainerItemProxy */;
+			targetProxy = 3AC8A09B23E0FC85000DEB4E /* PBXContainerItemProxy */;
+		};
+		3AC8A09E23E0FC85000DEB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zlib;
+			targetProxy = 3AC8A09D23E0FC85000DEB4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
