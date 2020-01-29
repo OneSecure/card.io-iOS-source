@@ -7,6 +7,11 @@
 #import "CardIOCreditCardInfo.h"
 #import "CardIOCreditCardNumber.h"
 
+#undef MIN
+#define MIN(a,b)  (((a) > (b)) ? (b) : (a))
+#undef MAX
+#define MAX(a,b)  (((a) < (b)) ? (b) : (a))
+
 @interface CardIOExpiryTextFieldDelegate ()
 
 @property(nonatomic, strong, readwrite) CardIOCreditCardExpiryFormatter *formatter;

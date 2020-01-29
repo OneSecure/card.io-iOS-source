@@ -33,6 +33,11 @@
 #define kiOS7TableViewBorderColor 0.78f
 #define kMinimumDefaultRowWidth 320.0f
 
+#undef MIN
+#define MIN(a,b)  (((a) > (b)) ? (b) : (a))
+#undef MAX
+#define MAX(a,b)  (((a) < (b)) ? (b) : (a))
+
 @interface CardIODataEntryViewController ()
 
 - (void)cancel;
@@ -582,7 +587,7 @@
 }
 
 - (void)viewDidUnload {
-  self.tableView.delegate = nil, self.tableView.dataSource = nil, self.tableView = nil;
+  self.tableView.delegate = nil; self.tableView.dataSource = nil; self.tableView = nil;
 
   self.tableViewDelegate = nil;
   self.numberRowTextFieldDelegate = nil;
@@ -631,8 +636,8 @@
       cardViewFrame.size.width = (CGFloat)floor(MAX(self.scrollView.bounds.size.width, self.scrollView.bounds.size.height) * kLandscapeZoomedInCardImageSizePercent);
       cardViewFrame.size.height = (CGFloat)floor(self.cardImage.size.height * (cardViewFrame.size.width / self.cardImage.size.width));
       if (!showTableView) {
-        cardViewFrame.size.width *= 1.5;
-        cardViewFrame.size.height *= 1.5;
+        cardViewFrame.size.width *= 1.5f;
+        cardViewFrame.size.height *= 1.5f;
       }
     }
     else {

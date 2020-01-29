@@ -8,6 +8,10 @@
 
 #define RIGHT_ANGLE ((CGFloat) M_PI_2)
 
+#undef MIN
+#define MIN(a,b)  (((a) > (b)) ? (b) : (a))
+#undef MAX
+#define MAX(a,b)  (((a) < (b)) ? (b) : (a))
 
 @interface ShutterLayer : CALayer
 

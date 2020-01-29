@@ -19,6 +19,11 @@
 #define kNumberBottomMargin 8
 #define kImageScale 2.0f
 
+#undef MIN
+#define MIN(a,b)  (((a) > (b)) ? (b) : (a))
+#undef MAX
+#define MAX(a,b)  (((a) < (b)) ? (b) : (a))
+
 @implementation CardIOCardOverlay
 
 + (UIImage *)cardImage:(UIImage *)cardImage withDisplayInfo:(CardIOReadCardInfo *)cardInfo annotated:(BOOL)shouldAnnotate {

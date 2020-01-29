@@ -261,13 +261,13 @@
       self.logoView.hidden = YES;
       self.lightButton.hidden = YES;
 #if CARDIO_DEBUG
-      _debugTextField.hidden = YES;
+      self->_debugTextField.hidden = YES;
 #endif
     } else {
       self.logoView.hidden = NO;
       self.lightButton.hidden = NO;
 #if CARDIO_DEBUG
-      _debugTextField.hidden = NO;
+      self->_debugTextField.hidden = NO;
 #endif
     }
   });

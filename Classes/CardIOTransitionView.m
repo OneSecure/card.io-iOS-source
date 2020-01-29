@@ -13,6 +13,11 @@
 
 #define kFlashDuration 0.5f
 
+#undef MIN
+#define MIN(a,b)  (((a) > (b)) ? (b) : (a))
+#undef MAX
+#define MAX(a,b)  (((a) < (b)) ? (b) : (a))
+
 @interface CardIOTransitionView () 
 
 @property(nonatomic, strong, readwrite) UIImageView *cardView;

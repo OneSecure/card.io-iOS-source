@@ -207,7 +207,7 @@
   [[NSNotificationCenter defaultCenter] removeObserver:self];
 
 #if USE_CAMERA
-  dmz_context_destroy(dmz), dmz = NULL;
+  dmz_context_destroy(dmz); dmz = NULL;
 #endif
 }
 

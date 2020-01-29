@@ -74,7 +74,7 @@
 		92263E0C1B83AE1F003FE678 /* CardIOTransitionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F66D66146456880001F15F /* CardIOTransitionView.h */; };
 		92263E0D1B83AE1F003FE678 /* CardIOTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F66D67146456880001F15F /* CardIOTransitionView.m */; };
 		92263E0E1B83AE29003FE678 /* CardIOIplImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 030A71411214AC9700BE07FB /* CardIOIplImage.mm */; };
-		92263E0F1B83AE6E003FE678 /* dmz_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0378AE18158C01CA00545AAA /* dmz_all.cpp */; settings = {COMPILER_FLAGS = "-O3 -fslp-vectorize-aggressive"; }; };
+		92263E0F1B83AE6E003FE678 /* dmz_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0378AE18158C01CA00545AAA /* dmz_all.cpp */; settings = {COMPILER_FLAGS = "-O3"; }; };
 		92263E111B83AEA7003FE678 /* mz_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84979985159E5E0500527FF5 /* mz_ios.mm */; };
 		92263E131B83AF13003FE678 /* CardIOConfigurableTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307360613416B0600663C26 /* CardIOConfigurableTextFieldDelegate.m */; };
 		92263E151B83AF13003FE678 /* CardIOCVVTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030736121343F53A00663C26 /* CardIOCVVTextFieldDelegate.m */; };
