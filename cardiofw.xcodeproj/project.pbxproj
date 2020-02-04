@@ -2224,6 +2224,10 @@
 				CODE_SIGN_IDENTITY = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-Wno-deprecated-implementations",
+				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 			};
@@ -2236,6 +2240,10 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-Wno-deprecated-implementations",
+				);
 				PRELINK_LIBS = "";
 			};
 			name = Release;

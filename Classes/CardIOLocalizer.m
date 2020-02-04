@@ -398,7 +398,7 @@ NSString *CardIOLocalizedStringWithAlert(NSString *key,
   NSString *string = [[CardIOLocalizer localizerForLanguageOrLocale:languageOrLocale forBundle:bundle] localizeString:key];
   if ([string length] == 0) {
     if (showMissingKeyAlert) {
-      UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Missing Key"
+      UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Missing Key", nil)
                                                       message:[NSString stringWithFormat:@"No %@ string for key '%@'", languageOrLocale, key]
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"

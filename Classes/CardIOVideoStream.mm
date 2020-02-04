@@ -95,6 +95,7 @@
         transform = CGAffineTransformTranslate(transform, 0, image.size.width);
         transform = CGAffineTransformRotate(transform, (CGFloat)-M_PI_2);
         break;
+      default:;
     }
     
     CGFloat newWidth;
