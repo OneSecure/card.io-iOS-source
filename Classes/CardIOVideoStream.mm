@@ -299,7 +299,10 @@
     
 #if SIMULATE_CAMERA
     [(SimulatedCameraLayer *)self.previewLayer updateOrientation];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnonnull"
     [self captureOutput:nil didOutputSampleBuffer:nil fromConnection:nil];
+#pragma clang diagnostic pop
 #endif
   }
 }
@@ -548,7 +551,10 @@
 #if SIMULATE_CAMERA
 - (void)simulateNewFrame {
   [(SimulatedCameraLayer *)self.previewLayer nextImage];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnonnull"
   [self captureOutput:nil didOutputSampleBuffer:nil fromConnection:nil];
+#pragma clang diagnostic pop
 }
 
 - (void)considerItScanned {
